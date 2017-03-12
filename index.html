@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>The Waterfall</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title"
+        charset="utf-8">
+</head>
+
+<body>
+    <header><h1 class="topic-title">Github & Stack Mash</h1></header>
+
+    <p>This app takes the popular languages from a git user's repo list and shows featured unanswered stackOverflow questions</p>
+    <form action="" accept-charset="utf-8">
+        <input type="text" name="name" placeholder="Github Handle" value="" id="name">
+        <input type="text" name="submission" placeholder="Search StackOverflow" value="" id="submission">
+        <input type="submit" name="submit-btn" placeholder="submit" value="Lets Go!" id="submit-btn">
+    </form>
+    <div class="container">
+        <div class=git-results> </div>
+        <div class=stack-results> </div>
+    </div>
+
+
+
+
+
+    <script src="waterfall.js" charset="utf-8"></script>
+    <script src="fetch.js" charset="utf-8"></script>
+    <script src="data.js" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
+    <script src="render.js" charset="utf-8"></script>
+</body>
+
+</html>

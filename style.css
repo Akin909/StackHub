@@ -1,0 +1,66 @@
+body {
+    font-family: "Cabin",sans-serif;
+    background: #9AFFD2;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    /* border: black 1px solid; */
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    height: auto;
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+input:not(:last-child) {
+    margin: 0.4em;
+    font-family: "Cabin",sans-serif;
+    height: 2em;
+    width: 25em;
+}
+.topic-title {
+    color: white;
+    text-shadow: -1px 2px 0 black,
+    -2.5px 2.5px 0 black,
+    -3px 3px 0 black,
+    -3.5px 3.5px 0 black,
+    -4px 4px 0 black
+    ;
+    /* #B3B3B3; */
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+.git-results {
+    /* border: red 1px solid; */
+    min-width: 50%;
+}
+.github {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.git-name {
+    text-align: center;
+}
+.githubList {
+    list-style-type:none;
+    padding: 0;
+}
+
+.githubList > li {
+    margin: 0.4em 0.4em;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 1em;
+    box-shadow: inset 1px -1px 0 #3E4045;
+    background-color:#86D3FF;
+}
+
+.stack-results {
+    /* border: blue 1px solid; */
+    width: 50%;
+}
